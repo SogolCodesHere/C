@@ -1,17 +1,20 @@
-#define _CRT_SECURE_NO_DEPRECATE  // Prevents MSVC++ from blocking scanf()
-#include <stdio.h>
+/* Project:
+ * Author: Sogol Saleki
+ * Created:
+ * Description:
 
-/*
 printf(" ", );
 scanf(" ", );
-while (getchar() != '\n'); 
-*/
+while (getchar() != '\n');
+ */
 
-
+#define _CRT_SECURE_NO_DEPRECATE	// Else MSVC++ prevents using scanf() (concern: buffer overflow)
+#include <stdio.h>
 
 int main(void)
 {
 
-    getchar();
-    return 0;
+
+	getchar();
+	return 0;
 }

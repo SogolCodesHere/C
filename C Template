@@ -6,6 +6,7 @@
 printf(" ", );
 scanf(" ", );
 while (getchar() != '\n');
+str[strcspn(str, "\n")] = '\0';  // This will replace '\n' with '\0'
  */
 
 #define _CRT_SECURE_NO_DEPRECATE	// Else MSVC++ prevents using scanf() (concern: buffer overflow)

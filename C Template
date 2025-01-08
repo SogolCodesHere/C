@@ -10,8 +10,9 @@ while (getchar() != '\n');
 
 #define _CRT_SECURE_NO_DEPRECATE	// Else MSVC++ prevents using scanf() (concern: buffer overflow)
 #include <stdio.h>
-//#define _USE_MATH_DEFINES
-//#include <math.h>
+#include <stdio.h>
+#define _USE_MATH_DEFINES
+#include <math.h>
 
 int main(void)
 {
